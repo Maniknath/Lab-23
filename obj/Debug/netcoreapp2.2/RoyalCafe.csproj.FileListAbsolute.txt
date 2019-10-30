@@ -44,3 +44,4 @@ C:\Users\manik\OneDrive\Desktop\MVC Projects\Lab 23\RoyalCafe\obj\Debug\netcorea
 C:\Users\manik\OneDrive\Desktop\MVC Projects\Lab 23\RoyalCafe\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\manik\OneDrive\Desktop\MVC Projects\Lab 23\RoyalCafe\obj\Debug\netcoreapp2.2\Razor\Views\Login\Thanks.cshtml.g.cs
 C:\Users\manik\OneDrive\Desktop\MVC Projects\Lab 23\RoyalCafe\obj\Debug\netcoreapp2.2\Razor\Views\Shop\B.cshtml.g.cs
+C:\Users\manik\OneDrive\Desktop\MVC Projects\Lab 23\RoyalCafe\obj\Debug\netcoreapp2.2\RoyalCafe.csprojAssemblyReference.cache

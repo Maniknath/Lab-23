@@ -104,7 +104,7 @@ namespace RoyalCafe.Controllers
                     User u = usr[i];
                     if (u.UserName == userName && u.Money < price)
                     {
-                        ViewData["Message"] = "You don't have enough Money. Please try again!";
+                        ViewData["Message"] = "Sorry! You don't have enough Money!";
                         return View();
                     }
                 }
@@ -118,7 +118,7 @@ namespace RoyalCafe.Controllers
                 db.SaveChanges();
 
                 ViewData["Message"] = "Thank you! ";
-                ViewData["Price"] = "$" + price + " deducted from your account";
+                ViewData["Price"] = "$" + price + " Thanks for your Business";
                 return View();
             }
             else
