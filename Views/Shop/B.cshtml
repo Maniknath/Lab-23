@@ -1,0 +1,16 @@
+﻿@model RoyalCafe.Models.Products
+@{
+    ViewData["Title"] = "Buy";
+}
+
+<h1>Buy</h1>
+
+<form asp-action="Receipt" method="post">
+    <input type="radio" name="answer" value="Yes" checked>Yes<br />
+    <input type="radio" name="answer" value="No">No<br />
+    <input type="hidden" name="username" value="@Context.Request.Cookies["userNameCookie"]">
+    <input type="hidden" name="price" value="@Html.DisplayFor(model => model.Price)">
+    <input type="submit" name="submit" value="Submit" /><br />
+
+</form>
+

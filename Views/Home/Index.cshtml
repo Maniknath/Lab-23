@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4" style="font-weight:bold">Welcome To Royal Cafe</h1>
+    <p></p>
+    <img src="~/Images/RoyalCafe.jpg" />
+
+</div>
+<br/>
+
+<div class="text-center">
+    <a>First Time User?</a>
+    <a asp-controller="Login" asp-action="Register">Register</a>
+    <br />
+    <a>Would You Like To Check Out Our Menu?</a>
+    <a asp-controller="Shop" asp-action="Menu">Menu</a>
+</div>
